@@ -11,7 +11,7 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'cal base view for the next weeks (based on month view)',
+	'title' => 'Render Week Preview for calendar',
 	'description' => 'Provides a customized view (based on the month view) to give a comprehensive preview over the next week\'s events, starting in the current week.',
 	'category' => 'plugin',
 	'author' => 'Thomas Kowtsch',
@@ -21,7 +21,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
-	'state' => 'alpha',
+	'state' => 'beta',
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.0.0',
+	'version' => '0.9.0',
 	'constraints' => array(
 		'depends' => array(
 			'cal' => '1.2.0',

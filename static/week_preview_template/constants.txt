@@ -1,6 +1,6 @@
 plugin.tx_calweekpreview {
 # cat=calweekpreview//a; type=boolean; label=Week Preview active?
-enable = 0
+enable = 1
 
 # cat=calweekpreview//b; type=int; label=Weeks to show
 numOfWeeks = 6
